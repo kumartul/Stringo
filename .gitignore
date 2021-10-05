@@ -1,0 +1,6 @@
+# Directories
+node_modules
+coverage
+
+# Files
+package-lock.jsons
