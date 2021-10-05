@@ -1,0 +1,24 @@
+{
+  "name": "stringo",
+  "version": "0.1.0",
+  "description": "Let's play with strings",
+  "main": "stringo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Atul-Kumar-Official/Stringo.git"
+  },
+  "keywords": [
+    "string",
+    "library",
+    "javascript"
+  ],
+  "author": "Atul Kumar <akumarofficial4224@gmail.com> (https://www.github.com/Atul-Kumar-Official)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Atul-Kumar-Official/Stringo/issues"
+  },
+  "homepage": "https://github.com/Atul-Kumar-Official/Stringo#readme"
+}
