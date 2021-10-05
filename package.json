@@ -4,7 +4,7 @@
   "description": "Let's play with strings",
   "main": "stringo.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --coverage"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/Atul-Kumar-Official/Stringo/issues"
   },
-  "homepage": "https://github.com/Atul-Kumar-Official/Stringo#readme"
+  "homepage": "https://github.com/Atul-Kumar-Official/Stringo#readme",
+  "devDependencies": {
+    "jest": "27.2.4"
+  }
 }
