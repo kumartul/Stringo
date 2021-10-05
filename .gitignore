@@ -3,4 +3,4 @@ node_modules
 coverage
 
 # Files
-package-lock.jsons
+package-lock.json
