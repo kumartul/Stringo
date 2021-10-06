@@ -11,6 +11,12 @@ const breakStr = require('./src/breakStr.js');
 const has = require('./src/has.js');
 const insert = require('./src/insert.js');
 const nth = require('./src/nth.js');
+const count = require('./src/count.js');
+const join = require('./src/join.js');
+const random = require('./src/random.js');
+const remove = require('./src/remove.js');
+const shuffle = require('./src/shuffle.js');
+const unique = require('./src/unique.js');
 
 class Stringo{
     constructor(){
@@ -29,6 +35,12 @@ class Stringo{
         this.insertBefore = insert.insertBefore;
         this.insertAfter = insert.insertAfter;
         this.nth = nth;
+        this.count = count;
+        this.join = join;
+        this.random = random;
+        this.remove = remove;
+        this.shuffle = shuffle;
+        this.unique = unique;
     }
 }
 
