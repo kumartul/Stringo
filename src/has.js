@@ -10,6 +10,4 @@ function has(string, substring){
     }
 }
 
-console.log(has("Foo Bar", "Bar"));
-
 module.exports = has;
