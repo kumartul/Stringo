@@ -8,6 +8,7 @@ function removeWhitespace(string, removeExtraOnly=false){
             return string.replace(/\s{2,}/g, " ");
         }
         else{
+            string = string.trim();
             return string.replace(/\s+/g, "");
         }
     }
