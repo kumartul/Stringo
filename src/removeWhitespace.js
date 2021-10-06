@@ -5,10 +5,10 @@ const isStr = require('./utils/isStr.js');
 function removeWhitespace(string, removeExtraOnly=false){
     if(isStr(string)){
         if(removeExtraOnly){
+            string = string.trim();
             return string.replace(/\s{2,}/g, " ");
         }
         else{
-            string = string.trim();
             return string.replace(/\s+/g, "");
         }
     }
