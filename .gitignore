@@ -4,3 +4,4 @@ coverage
 
 # Files
 package-lock.json
+*.txt
