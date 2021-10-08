@@ -8,7 +8,6 @@ const reverse = require('./src/reverse.js');
 const sort = require('./src/sort.js');
 const words = require('./src/words.js');
 const breakStr = require('./src/breakStr.js');
-const has = require('./src/has.js');
 const insert = require('./src/insert.js');
 const nth = require('./src/nth.js');
 const count = require('./src/count.js');
