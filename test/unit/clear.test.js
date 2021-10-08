@@ -1,5 +1,5 @@
 const clear = require("../../src/clear.js");
 
-test('empties the string', () => {
-    expect(clear("Foo")).toBe("");
+test("empties the string", () => {
+	expect(clear("Foo")).toBe("");
 });
