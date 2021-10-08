@@ -1,7 +1,6 @@
 const isStr = require("./utils/isStr.js");
 const has = require("./has.js");
 const breakStr = require("./breakStr.js");
-const nth = require("./nth.js");
 
 // Function: Inserts a string before a substring in a string
 function insertBefore(string, targetSubstring, stringToBeInserted){
