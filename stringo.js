@@ -31,7 +31,6 @@ class Stringo{
         this.sortWords = sort.sortWords;
         this.words = words;
         this.breakStr = breakStr;
-        this.has = has;
         this.insertBefore = insert.insertBefore;
         this.insertAfter = insert.insertAfter;
         this.nth = nth;
