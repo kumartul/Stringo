@@ -16,6 +16,12 @@ const random = require('./src/random.js');
 const remove = require('./src/remove.js');
 const shuffle = require('./src/shuffle.js');
 const unique = require('./src/unique.js');
+const isAlnum = require('./src/isAlnum.js');
+const isAlpha = require('./src/isAlpha.js');
+const isDigit = require('./src/isDigit.js');
+const isLower = require('./src/isLower.js');
+const isUpper = require('./src/isUpper.js');
+const isSentence = require('./src/isSentence.js');
 
 class Stringo{
     constructor(){
@@ -39,6 +45,12 @@ class Stringo{
         this.remove = remove;
         this.shuffle = shuffle;
         this.unique = unique;
+		this.isAlnum = isAlnum;
+		this.isAlpha = isAlpha;
+		this.isDigit = isDigit;
+		this.isLower = isLower;
+		this.isUpper = isUpper;
+		this.isSentence = isSentence;
     }
 }
 
