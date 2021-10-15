@@ -3,7 +3,7 @@ const isStr = require("./utils/isStr.js");
 // Function: Changes the case of the string
 function changeCase(string, stringCase){
 	if(isStr(string)){
-		switch(stringCase){
+		switch(stringCase.toLowerCase()){
 			case "upper": {
 				return string.toUpperCase();
 			}
