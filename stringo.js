@@ -23,35 +23,29 @@ const isLower = require('./src/isLower.js');
 const isUpper = require('./src/isUpper.js');
 const isSentence = require('./src/isSentence.js');
 
-class Stringo{
-    constructor(){
-        this.changeCase = changeCase;
-        this.chunk = chunk;
-        this.clear = clear;
-        this.distance = distance;
-        this.has = has;
-        this.removeWhitespace = removeWhitespace;
-        this.reverse = reverse;
-        this.sortChars = sort.sortChars;
-        this.sortWords = sort.sortWords;
-        this.words = words;
-        this.breakStr = breakStr;
-        this.insertBefore = insert.insertBefore;
-        this.insertAfter = insert.insertAfter;
-        this.nth = nth;
-        this.count = count;
-        this.join = join;
-        this.random = random;
-        this.remove = remove;
-        this.shuffle = shuffle;
-        this.unique = unique;
-		this.isAlnum = isAlnum;
-		this.isAlpha = isAlpha;
-		this.isDigit = isDigit;
-		this.isLower = isLower;
-		this.isUpper = isUpper;
-		this.isSentence = isSentence;
-    }
+module.exports = {
+    changeCase,
+    chunk,
+    clear,
+    distance,
+    has,
+    removeWhitespace,
+    reverse,
+    sort,
+    words,
+    breakStr,
+    insert,
+    nth,
+    count,
+    join,
+    random,
+    remove,
+    shuffle,
+    unique,
+    isAlnum,
+    isAlpha,
+    isDigit,
+    isLower,
+    isUpper,
+    isSentence
 }
-
-module.exports = Stringo;
