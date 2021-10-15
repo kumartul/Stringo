@@ -12,10 +12,9 @@ npm install --save stringo
 In Node.js
 ```bash
 const Stringo = require('stringo');
-const so = new Stringo();
 ```
 
-To run the tests: 
+To run the tests:
 ```bash
 npm test
 ```
