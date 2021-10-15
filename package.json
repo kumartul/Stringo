@@ -1,6 +1,6 @@
 {
   "name": "stringo",
-  "version": "1.0.1",
+  "version": "1.6.1",
   "description": "Let's play with strings",
   "main": "stringo.js",
   "scripts": {
