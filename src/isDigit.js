@@ -2,6 +2,7 @@ const isStr = require('./utils/isStr.js');
 
 const regex = /^\d+$/;
 
+// Function: Checks whether all the characters in a string are digits are not
 function isDigit(string){
 	if(isStr(string)){
 		return regex.test(string);

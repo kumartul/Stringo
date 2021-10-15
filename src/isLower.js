@@ -1,5 +1,6 @@
 const isStr = require('./utils/isStr.js');
 
+// Function: Checks whether a string is in lowercase or not
 function isLower(string){
 	if(isStr(string)){
 		return string === string.toLowerCase();
