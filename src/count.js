@@ -14,7 +14,7 @@ function count(string, substring, caseSensitive=true){
 			count++;
 			string = string.replace(substring, "");
 		}
-        
+
 		return count;
 	}
 	else{

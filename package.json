@@ -26,6 +26,7 @@
     "jest": "27.2.4"
   },
   "dependencies": {
-    "arrayism": "1.16.0"
+    "arrayism": "1.16.0",
+    "validator": "13.6.0"
   }
 }
