@@ -1,4 +1,4 @@
-const isStr = require('./utils/isStr.js');
+const isStr = require("./utils/isStr.js");
 
 // Function: Checks whether the string is in uppercase or not
 function isUpper(string){

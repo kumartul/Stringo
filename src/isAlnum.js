@@ -1,5 +1,5 @@
-const validator = require('validator');
-const isStr = require('./utils/isStr.js');
+const validator = require("validator");
+const isStr = require("./utils/isStr.js");
 
 // Checks if the string is an alphanumeric string or not
 function isAlnum(string){

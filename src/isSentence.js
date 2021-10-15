@@ -1,6 +1,6 @@
 const isStr = require("./utils/isStr.js");
 
-const changeCase = require('./changeCase.js');
+const changeCase = require("./changeCase.js");
 
 // Function: Checks whether a string is in sentence case or not
 function isSentence(string){

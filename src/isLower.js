@@ -1,4 +1,4 @@
-const isStr = require('./utils/isStr.js');
+const isStr = require("./utils/isStr.js");
 
 // Function: Checks whether a string is in lowercase or not
 function isLower(string){

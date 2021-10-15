@@ -1,4 +1,4 @@
-const isStr = require('./utils/isStr.js');
+const isStr = require("./utils/isStr.js");
 
 const regex = /^\d+$/;
 
