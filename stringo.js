@@ -27,6 +27,7 @@ const addSlashes = require('./src/addSlashes.js');
 const stripSlashes = require('./src/stripSlashes.js');
 const md5 = require('./src/md5.js');
 const sha1 = require('./src/sha1.js');
+const pySlice = require('./src/pySlice.js');
 
 module.exports = {
     changeCase,
@@ -57,5 +58,6 @@ module.exports = {
 	addSlashes,
 	stripSlashes,
 	md5,
-	sha1
+	sha1,
+	pySlice
 }
