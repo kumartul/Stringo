@@ -23,6 +23,9 @@ const isLower = require('./src/isLower.js');
 const isUpper = require('./src/isUpper.js');
 const isSentence = require('./src/isSentence.js');
 const filter = require('./src/filter.js');
+const addSlashes = require('./src/addSlashes.js');
+const stripSlashes = require('./src/stripSlashes.js');
+const md5 = require('./src/md5.js');
 
 module.exports = {
     changeCase,
@@ -49,5 +52,8 @@ module.exports = {
     isLower,
     isUpper,
     isSentence,
-	filter
+	filter,
+	addSlashes,
+	stripSlashes,
+	md5
 }
