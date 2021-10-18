@@ -22,6 +22,7 @@ const isDigit = require('./src/isDigit.js');
 const isLower = require('./src/isLower.js');
 const isUpper = require('./src/isUpper.js');
 const isSentence = require('./src/isSentence.js');
+const filter = require('./src/filter.js');
 
 module.exports = {
     changeCase,
@@ -47,5 +48,6 @@ module.exports = {
     isDigit,
     isLower,
     isUpper,
-    isSentence
+    isSentence,
+	filter
 }
