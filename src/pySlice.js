@@ -45,7 +45,12 @@ function pySlice(string, sliceCode){
 				to = string.length;
 			}
 			else if(Number.isInteger(Number(to))){
-				to = Number(to) + 1;
+				if(Number(to) > 0){
+					to = Number(to) + 1;
+				}
+				else{
+					to = Number(to);
+				}
 			}
 			else{
 				throw new TypeError("Failed to execute 'pySlice': Invalid secondIn");
@@ -63,6 +68,9 @@ function pySlice(string, sliceCode){
 				throw new TypeError("Failed to execute 'pySlice': Invalid step");
 			}
 
+			console.log(from);
+			console.log(to);
+
 			// If 'from' is negative, calculate it's positive distance
 			if(from < 0){
 				from = string.length + from;
@@ -77,7 +85,10 @@ function pySlice(string, sliceCode){
 				return "";
 			}
 			else if(step > 0){
+				console.log(from);
+				console.log(to);
 				let chars = string.slice(from, to).split("");
+				console.log(chars);
 				let finalArr = [];
 
 				// Iterate through all the characters and if their index is divisible by
