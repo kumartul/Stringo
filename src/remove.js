@@ -6,7 +6,7 @@ function remove(string, substring, removeAll=true){
 	if(isStr(string) && isStr(substring)){
 		if(has(string, substring)){
 			if(removeAll){
-				while(string.search(substring) > -1){
+				while(string.indexOf(substring) > -1){
 					string = string.replace(substring, "");
 				}
 				return string;
