@@ -1,13 +1,12 @@
 const isStr = require("./utils/isStr.js");
 
 const Arrayism = require("arrayism");
-const asm = new Arrayism();
 
 // Function: Shuffles the string
 function shuffle(string){
 	if(isStr(string)){
 		let chars = string.split("");
-		chars = asm.shuffle(chars);
+		chars = Arrayism.shuffle(chars);
 		return chars.join("");
 	}
 	else{

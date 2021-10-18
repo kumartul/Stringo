@@ -1,5 +1,4 @@
 const Arrayism = require("arrayism");
-const asm = new Arrayism();
 
 const isStr = require("./utils/isStr.js");
 const isInt = require("./utils/isInt.js");
@@ -10,7 +9,7 @@ function nth(string, n){
 	if(isStr(string)){
 		if(isInt(n)){
 			let chars = string.split("");
-			return asm.nth(chars, n);
+			return Arrayism.nth(chars, n);
 		}
 		else{
 			throw new TypeError("Failed to execute 'nth': n must be an integer");
