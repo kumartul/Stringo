@@ -27,6 +27,7 @@
   },
   "dependencies": {
     "arrayism": "3.18.1",
+    "blueimp-md5": "2.19.0",
     "validator": "13.6.0"
   }
 }
