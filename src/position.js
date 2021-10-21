@@ -15,7 +15,7 @@ function position(letter){
 			}
 		}
 		else{
-			throw new Error("Failed to execute 'position': Argument must be an alphabet");
+			return 0;
 		}
 	}
 	else{
