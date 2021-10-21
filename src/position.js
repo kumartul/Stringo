@@ -7,8 +7,19 @@ const validator = require('validator');
 function position(letter){
 	if(isStr(letter)){
 		if(validator.default.isAlpha(letter)){
-			return constants.LOWER_ALPHABETS.indexOf(letter.toLowerCase()) + 1;
+			if(letter.length === 1){
+				return constants.LOWER_ALPHABETS.indexOf(letter.toLowerCase()) + 1;
+			}
+			else{
+				throw new RangeError("Failed to execute 'position': Argument's length must be 1");
+			}
 		}
+		else{
+			throw new Error("Failed to execute 'position': Argument must be an alphabet");
+		}
+	}
+	else{
+		throw new TypeError("Failed to execute 'position': Argument must be a string");
 	}
 }
 
