@@ -28,6 +28,7 @@ const stripSlashes = require('./src/stripSlashes.js');
 const md5 = require('./src/md5.js');
 const sha1 = require('./src/sha1.js');
 const pySlice = require('./src/pySlice.js');
+const opposite = require('./src/opposite.js');
 
 module.exports = {
     changeCase,
@@ -59,5 +60,6 @@ module.exports = {
 	stripSlashes,
 	md5,
 	sha1,
-	pySlice
+	pySlice,
+	opposite
 }
