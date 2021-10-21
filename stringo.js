@@ -30,6 +30,7 @@ const sha1 = require('./src/sha1.js');
 const pySlice = require('./src/pySlice.js');
 const opposite = require('./src/opposite.js');
 const position = require('./src/position.js');
+const value = require('./src/value.js');
 
 module.exports = {
     changeCase,
@@ -63,5 +64,6 @@ module.exports = {
 	sha1,
 	pySlice,
 	opposite,
-	position
+	position,
+	value
 }
