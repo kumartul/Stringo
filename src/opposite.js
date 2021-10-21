@@ -25,6 +25,4 @@ function opposite(string){
 	}
 }
 
-console.log(opposite("Foobar"));
-
 module.exports = opposite;

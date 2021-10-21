@@ -22,6 +22,4 @@ function addSlashes(string){
 	}
 }
 
-console.log(addSlashes("What's Up?"));
-
 module.exports = addSlashes;
